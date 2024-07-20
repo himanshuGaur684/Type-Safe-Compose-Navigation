@@ -7,8 +7,8 @@ import androidx.navigation.NavType
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
+import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
-
 
 class CustomNavType<T : Parcelable>(
     private val clazz: Class<T>,
@@ -32,7 +32,7 @@ class CustomNavType<T : Parcelable>(
     }
 
     override fun serializeAsValue(value: T): String {
-        return Json.encodeToString(serializer = serializer,value)
+        return Json.encodeToString(serializer = serializer, value)
     }
 
     override val name: String
@@ -47,7 +47,6 @@ sealed class Dest {
 
     @Serializable
     class Profile(val dummyData: DummyData) : Dest()
-
 }
 
 
