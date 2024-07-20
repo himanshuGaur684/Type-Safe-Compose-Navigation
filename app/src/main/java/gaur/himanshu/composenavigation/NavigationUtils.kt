@@ -4,6 +4,8 @@ import android.os.Build
 import android.os.Bundle
 import android.os.Parcelable
 import androidx.navigation.NavType
+import gaur.himanshu.dashboard.ui.DashboardFeature
+import gaur.himanshu.ui.AuthFeatureApi
 import kotlinx.parcelize.Parcelize
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.Serializable
@@ -58,4 +60,11 @@ class DummyData(
     val age: Int,
     val salary: Float
 ) : Parcelable
+
+
+data class AppFeatureNavigator(
+    val authFeature:AuthFeatureApi,
+    val dashboardFeature:DashboardFeature
+)
+
 

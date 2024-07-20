@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Compose Navigation"
 include(":app")
- 
+include(":feature:auth:ui")
+include(":feature:dashboard:ui")
+include(":common")
