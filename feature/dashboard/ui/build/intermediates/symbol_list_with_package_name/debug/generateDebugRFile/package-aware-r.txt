@@ -1,0 +1,3 @@
+gaur.himanshu.dashboard.ui
+string title_activity_main
+style Theme_ComposeNavigation

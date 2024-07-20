@@ -1,0 +1,28 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:2:1-12:12
+INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:2:1-12:12
+	package
+		INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:4:5-10:19
+activity#gaur.himanshu.ui.MainActivity
+ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:5:9-9:62
+	android:label
+		ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:8:13-56
+	android:exported
+		ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:7:13-37
+	android:theme
+		ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:9:13-59
+	android:name
+		ADDED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml:6:13-41
+uses-sdk
+INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml
+INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/himanshugaur/AndroidStudioProjects/ComposeNavigation/feature/auth/ui/src/main/AndroidManifest.xml

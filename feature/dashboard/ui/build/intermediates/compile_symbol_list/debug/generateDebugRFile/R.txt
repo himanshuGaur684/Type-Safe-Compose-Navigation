@@ -1,0 +1,2 @@
+int string title_activity_main 0x0
+int style Theme_ComposeNavigation 0x0

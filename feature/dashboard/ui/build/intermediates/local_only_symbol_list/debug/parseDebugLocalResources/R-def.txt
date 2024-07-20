@@ -1,0 +1,4 @@
+R_DEF: Internal format may change without notice
+local
+string title_activity_main
+style Theme.ComposeNavigation
