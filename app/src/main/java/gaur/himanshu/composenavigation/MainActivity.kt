@@ -16,9 +16,6 @@ import javax.inject.Inject
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
 
-    @Inject
-    lateinit var appFeatureNavigator: AppFeatureNavigator
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -26,11 +23,12 @@ class MainActivity : ComponentActivity() {
             ComposeNavigationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        MainNavigation(appFeatureNavigator)
+
                     }
                 }
             }
         }
     }
+
 }
 
