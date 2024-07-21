@@ -19,7 +19,7 @@ class MainActivity : ComponentActivity() {
             ComposeNavigationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding)) {
-                        MainNavigation()
+
                     }
                 }
             }
