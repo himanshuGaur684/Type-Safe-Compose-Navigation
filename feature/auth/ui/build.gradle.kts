@@ -1,9 +1,9 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.0"
+    alias(libs.plugins.kotlinx.serialization)
     id("kotlin-parcelize")
-    id("dagger.hilt.android.plugin")
+    alias(libs.plugins.dagger.hilt)
     kotlin("kapt")
 }
 
@@ -67,12 +67,13 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    // dagger
-    implementation(libs.dagger.hilt)
+
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    // dagger
+    implementation(libs.dagger.hilt)
     kapt(libs.dagger.kapt)
 
     implementation(libs.androidx.navigation.compose)

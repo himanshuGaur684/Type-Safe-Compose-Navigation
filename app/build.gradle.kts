@@ -1,9 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.0"
+    alias(libs.plugins.kotlinx.serialization)
     id("kotlin-parcelize")
-    id("dagger.hilt.android.plugin")
+    alias(libs.plugins.dagger.hilt)
     kotlin("kapt")
 }
 

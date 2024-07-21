@@ -15,7 +15,6 @@ navigationCompose = "2.8.0-beta05"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
-androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -31,8 +30,11 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 classpath-kotlin-serialization = { module = "org.jetbrains.kotlin:kotlin-serialization", version = "1.9.22" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+androidx-navigation-compose = { module = "androidx.navigation:navigation-compose", version.ref = "navigationCompose" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
 
 dagger-hilt = { module = "com.google.dagger:hilt-android", version = "2.50" }
 dagger-kapt = { module = 'com.google.dagger:hilt-android-compiler', version = "2.50" }
@@ -42,4 +44,6 @@ dagger-kapt = { module = 'com.google.dagger:hilt-android-compiler', version = "2
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 android-library = { id = "com.android.library", version.ref = "agp" }
+kotlinx-serialization={id="org.jetbrains.kotlin.plugin.serialization",version="1.9.0"}
+dagger-hilt={id="com.google.dagger.hilt.android",version="2.50"}
 
